@@ -1,12 +1,4 @@
-call plug#begin()
-
-	Plug 'jiangmiao/auto-pairs'
-	Plug 'preservim/nerdtree'
-	Plug 'ryanoasis/vim-devicons'
-	Plug 'junegunn/fzf'
-	Plug 'nvimdev/dashboard-nvim'
-
-call plug#end()
+require('plugins')
 
 autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in")
   \ | execute 'NERDTree'
@@ -14,4 +6,4 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
   \ | execute 'Dashboard'
   \ | endif
 
-set encoding=UTF-8
+require('settings')
