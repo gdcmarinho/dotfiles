@@ -11,5 +11,6 @@ alias omzconfig="nano ~/.oh-my-zsh"
 alias home="cd /home/$USER"
 alias uu='sudo apt-get update && sudo apt-get upgrade'
 alias c='clear'
+alias wrangler="npx wrangler"
 
 export PATH=$HOME/.local/bin:$PATH
