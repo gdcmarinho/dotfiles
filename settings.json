@@ -1,0 +1,18 @@
+{
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "diffEditor.diffAlgorithm": "advanced",
+  "diffEditor.experimental.showMoves": true,
+  "chat.editing.confirmEditRequestRemoval": false,
+  "remote.autoForwardPortsSource": "hybrid"
+}
